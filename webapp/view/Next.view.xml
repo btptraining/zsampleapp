@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.ibm.sampleapp.controller.Next"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Next View">
+        <content>
+        <Button text="GOTO Main Page" press="onPressNext"/>
+        </content>
+    </Page>
+</mvc:View>
